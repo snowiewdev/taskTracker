@@ -1,2 +1,2 @@
 # taskTracker
-A Task Tracker built using ReactJS
+A Task Tracker App built using ReactJS
