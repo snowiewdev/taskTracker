@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url('./media/webb.png') repeat;
+}
+
+.container {
+  display: block;
+  margin: 4px auto;
+  width: 98%;
+  max-width: 500px;
+  min-height: 300px;
+  overflow: auto;
+  padding: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  background: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #2068A8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.task.reminder {
+  border-left: 5px solid #f6bd60;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  padding-right: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label{
+  margin: 5px;
+}
+
+.form-control input{
+  width: 100%;
+  height: 2rem;
+  margin: 5px;
+  padding: 4px 8px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 1.5rem;
+}
+
+.about {
+ padding: 1rem;
+ min-height: 200px;
+}
+
+.about ul {
+  list-style-position: inside;
+}
+
+footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+footer a{
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  margin: 1rem;
+  margin-top: 1rem;
+  transition: all 0.5s ease;
+}
+
+footer a:hover{
+  color: #2068A8;
+}
